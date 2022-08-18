@@ -26,7 +26,7 @@ public class Product {
 		//OU se colocar System.out.println(product); vai retornar da mesma forma
 		//o java entederá implicitamente que é um toString, por ser um contexto de .println\
 		
-		return name + ", $ " + price + ", " + quantity + " units, Total : $ " + price;
+		return name + ", $ " + price + ", " + quantity + " units, Total : $ " + totalValueInStock();
 		// dessa forma aparece tudo (=
 		
 	}
