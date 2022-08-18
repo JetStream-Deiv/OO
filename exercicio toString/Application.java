@@ -16,7 +16,7 @@ public class Application {
         System.out.print("Quantity in stock: ");
         product.quantity = sc.nextInt();
         
-        System.out.println(product);
+        System.out.println("Product data: "+product);
         
     } 
 }
